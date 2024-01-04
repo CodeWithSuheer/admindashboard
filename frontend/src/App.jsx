@@ -5,6 +5,9 @@ import Login from "./Pages/Login/Login";
 import SignUp from "./Pages/SignUp/SignUp";
 import ForgetPassword from "./Pages/Login/ForgetPassword";
 import ResetPassword from "./Pages/ResetPassword/ResetPassword";
+import ContactForms from "./Pages/ContactForms/ContactForms";
+import ClientInvoices from "./Pages/ClientInvoices/ClientInvoices";
+import InvoiceForm from "./Pages/InvoiceForm/InvoiceForm";
 import "./App.css";
 import User from "./components/Admin/Users/User";
 import AdminHeader from "./components/Admin/AdminHeader";
@@ -27,6 +30,9 @@ function App() {
 
           {/* --------- AUTHENTICATION --------- */}
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/formdata" element={<ContactForms />} />
+          <Route path="/clientinvoice" element={<ClientInvoices />} />
+          <Route path="/invoiceform" element={<InvoiceForm />} />
           <Route path="/forgetpassword" element={<ForgetPassword />} />
           <Route path="/resetpassword" element={<ResetPassword />} />
         </Routes>

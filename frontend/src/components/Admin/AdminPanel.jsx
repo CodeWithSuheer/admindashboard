@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import AdminHeader from "./AdminHeader";
+import AdminBody from "./AdminBody";
+import { Outlet } from "react-router-dom";
 
 const AdminPanel = () => {
   return (
-    <div>
-      AdminPanel
-    </div>
-  )
-}
+    <>
+      <AdminHeader />
+      <AdminBody />
+      {/* <Outlet /> */}
+    </>
+  );
+};
 
-export default AdminPanel
+export default AdminPanel;

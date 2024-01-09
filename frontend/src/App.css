@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+.pages{
+  background: #333333;  /* fallback for old browsers */
+  background: linear-gradient(to right, #d66d75 , #e29587);  /* Chrome 10-25, Safari 5.1-6 */
+
+}

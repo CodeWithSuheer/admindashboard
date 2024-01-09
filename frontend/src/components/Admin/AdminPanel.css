@@ -1,0 +1,11 @@
+.adminBody {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.admin_sideMenu {
+  width: 100%;
+}
+.admin_display {
+  width: 100%;
+}
